@@ -51,12 +51,13 @@ section{
 .header .sticky{
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
-.logo{
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
-    cursor: default;
+
+.logo-image {
+    width: 50px; /* Adjust width as needed */
+    height: auto;
+    display: block;
 }
+
 a {
     text-decoration: none;
 }
@@ -393,6 +394,7 @@ span{
         display: none;
     }
 
+    
     .navbar.active{
         display: block;
     }

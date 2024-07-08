@@ -17,7 +17,7 @@
     --bg-color: rgb(1, 12, 1);
     --bg2-color: #060303;
     --text-color: #fff;
-    --red-color: #f71616;
+    --red-color: #04aa6d; 
     --red1-color: #c0c5b9;
 }
 
@@ -42,7 +42,7 @@ section{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: red;
+    background: #04aa6d;
     display: flex;
     justify-content: space-between;
     align-items: center;

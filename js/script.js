@@ -50,7 +50,7 @@ ScrollReveal().reveal('.home-text p, .about-content', { origin: 'right' });
 
 //Typed Text
 const t = new Typed('.multiple-text', {
-    strings: ['Web Design Services', 'Web Develoment', 'Technical Counsaltant', 'Social Media Marketing', 'Website Maintainace', 'Call Me On: 0793543659'],
+    strings: ['Web Design Services', 'Digital Skills Trainer', 'Web Develoment', 'Technical Counsaltant', 'Social Media Marketing', 'Website Maintainace', 'Call Me On: 0793543659'],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,

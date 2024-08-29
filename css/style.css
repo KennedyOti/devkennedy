@@ -240,7 +240,7 @@ span {
 }
 
 .heading span {
-  color: #3498db; /* Accent color */
+  color: #09963f; /* Accent color */
 }
 
 .projects-container {
@@ -262,7 +262,7 @@ span {
 }
 
 .project-box:hover {
-  background-color: #3498db; /* Hover background color */
+  background-color: #0b7907; /* Hover background color */
   transform: translateY(-10px);
 }
 

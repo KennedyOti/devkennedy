@@ -30,8 +30,8 @@ a:hover {
 .header-section {
   background: linear-gradient(
     135deg,
-    #241111,
-    #ca5a5a
+    #f34242,
+    #800404
   ); /* Gradient background with muted red colors */
   padding: 150px 0; /* Increased padding for a spacious look */
   position: relative;

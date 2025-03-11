@@ -214,20 +214,78 @@ a:hover {
 }
 
 /* Skills Section */
-.skills-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.skill-card {
+  background: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #8b0000; /* Deep Red Border */
 }
 
-.skills-list li {
-  background-color: #3498db; /* Bright Blue */
-  color: #ecf0f1; /* Light Gray */
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 0.9rem;
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: #8b0000; /* Change background to Red on hover */
+  color: #ffffff; /* Change text to White */
+}
+
+/* Skill Icon */
+.skill-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover .skill-icon {
+  transform: scale(1.2);
+}
+
+/* Skill Title */
+.skill-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000000; /* Black text */
+  transition: color 0.3s ease-in-out;
+}
+
+.skill-card:hover .skill-title {
+  color: #ffffff; /* White text on hover */
+}
+
+/* Animation on Load */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skill-card {
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .skill-card {
+    padding: 15px;
+  }
+
+  .skill-icon {
+    font-size: 2.5rem;
+  }
+
+  .skill-title {
+    font-size: 1rem;
+  }
 }
 
 /* Projects Section */

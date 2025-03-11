@@ -32,8 +32,8 @@ a:hover {
 .header-section {
   background: linear-gradient(
     135deg,
-    #f34242,
-    #800404
+    #0f0f0f,
+    #e24444
   ); /* Gradient background */
   padding: 150px 0; /* Spacious layout */
   position: relative;
